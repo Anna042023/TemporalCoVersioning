@@ -1,0 +1,5 @@
+# Optional dependencies for figure generation and replay/summary scripts.
+matplotlib
+numpy
+pandas
+requests
