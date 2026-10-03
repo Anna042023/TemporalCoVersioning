@@ -1,0 +1,13 @@
+{
+  "root_segment_cells": 8,
+  "slice_reduction_pct_min": 80.27789299046039,
+  "slice_reduction_pct_max": 85.86651710600113,
+  "positive_query_fraction_min": 0.4611111111111111,
+  "positive_query_fraction_max": 0.5388888888888889,
+  "all_server_gain_intervals_cross_zero": true,
+  "roots": [
+    "root1",
+    "root2"
+  ],
+  "note": "Repeated abstention evidence: structural slice reduction replicates, but query-level latency direction is unstable."
+}

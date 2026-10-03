@@ -1,0 +1,16 @@
+[
+  {
+    "pair": "pair1",
+    "calibration": "normal1",
+    "heldout": "anomaly1",
+    "static_layout": "((0, 1), (2, 3), (4, 5), (6, 7))",
+    "temporal_layout": "((0, 6), (1, 7), (2, 3), (4, 5))"
+  },
+  {
+    "pair": "pair2",
+    "calibration": "normal2",
+    "heldout": "anomaly2",
+    "static_layout": "((0, 1), (2, 3), (4, 5), (6, 7))",
+    "temporal_layout": "((0, 6), (1, 7), (2, 4), (3, 5))"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "paired_queries": 2400,
+  "signal_equivalent_pairs": 2400,
+  "signal_max_abs_diff": 7.077005648170598e-12,
+  "resolver_full_slice_matches": 4800,
+  "resolver_full_slice_total": 4800,
+  "passed": true
+}

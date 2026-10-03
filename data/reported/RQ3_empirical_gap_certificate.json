@@ -1,0 +1,15 @@
+{
+  "instances": 288,
+  "exact_count": 278,
+  "exact_fraction": 0.9652777777777778,
+  "gap_pct_quantiles": {
+    "50": 0.0,
+    "90": 0.0,
+    "95": 1.443289932012653e-14,
+    "97.5": 0.34505179058679303,
+    "99": 0.8310757164208401,
+    "100": 3.6178106929577236
+  },
+  "worst_gap_pct": 3.6178106929577236,
+  "note": "Empirical exact-oracle distribution only; no approximation factor is inferred."
+}

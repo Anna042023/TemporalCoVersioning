@@ -1,0 +1,63 @@
+{
+  "compiler": {
+    "by_topology": [
+      {
+        "checks": 25000,
+        "mean_exposed_boundaries": 37.94516,
+        "mean_fragments_touched": 2.0787999999999998,
+        "mismatches": 0,
+        "topology": "Grid64",
+        "traces": 50
+      },
+      {
+        "checks": 25000,
+        "mean_exposed_boundaries": 35.27444,
+        "mean_fragments_touched": 1.87108,
+        "mismatches": 0,
+        "topology": "Path64",
+        "traces": 50
+      }
+    ],
+    "checks": 50000,
+    "mismatches": 0,
+    "traces": 100
+  },
+  "rq3_ablation": {
+    "cases": 288,
+    "multistart_exact_pct": 96.52777777777779,
+    "multistart_mean_ratio": 1.0003524266697776,
+    "regressed_cases": 0,
+    "rescued_cases": 11,
+    "singleton_exact_pct": 92.70833333333334,
+    "singleton_mean_ratio": 1.000708572722895
+  },
+  "rq8": [
+    {
+      "break_even_queries_median": 38.841398577603854,
+      "median_query_saving_ms": 0.055838875,
+      "migration_ms_median": 2.16886,
+      "migration_ms_p95": 2.2964596,
+      "payload_bytes": 256,
+      "query_saving_ci_hi": 0.06027875,
+      "query_saving_ci_lo": 0.0506232083333333
+    },
+    {
+      "break_even_queries_median": 48.067520901658206,
+      "median_query_saving_ms": 0.067653125,
+      "migration_ms_median": 3.251918,
+      "migration_ms_p95": 3.8203828,
+      "payload_bytes": 1024,
+      "query_saving_ci_hi": 0.0737240833333332,
+      "query_saving_ci_lo": 0.0626430833333333
+    },
+    {
+      "break_even_queries_median": 186.2655257994996,
+      "median_query_saving_ms": 0.0586590833333333,
+      "migration_ms_median": 10.926165,
+      "migration_ms_p95": 12.707546,
+      "payload_bytes": 4096,
+      "query_saving_ci_hi": 0.0643462916666666,
+      "query_saving_ci_lo": 0.0521557499999999
+    }
+  ]
+}

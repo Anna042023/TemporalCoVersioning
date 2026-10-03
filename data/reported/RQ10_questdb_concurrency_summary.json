@@ -1,0 +1,21 @@
+{
+  "migration": {
+    "migration_client_ms": 56.812555,
+    "migration_server_insert_ms": null,
+    "migration_wal_wait_ms": 37.182986,
+    "wait_wal_supported": true
+  },
+  "readers": 4,
+  "pre_n": 371,
+  "pre_errors": 0,
+  "pre_server_ms_median": 0.308877,
+  "pre_server_ms_p95": 3.5672094999999997,
+  "during_n": 54,
+  "during_errors": 0,
+  "during_server_ms_median": 0.302107,
+  "during_server_ms_p95": 2.6907262499999964,
+  "post_n": 357,
+  "post_errors": 0,
+  "post_server_ms_median": 0.230509,
+  "post_server_ms_p95": 0.5841277999999995
+}

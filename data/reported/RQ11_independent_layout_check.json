@@ -1,0 +1,9 @@
+{
+  "independent_pairs": 2,
+  "primary_bin_count": 4,
+  "common_pairings_between_two_primary_temporal_layouts": 2,
+  "pairings_per_layout": 4,
+  "sensitivity_reduction_pct_min": 5.626598465473146,
+  "sensitivity_reduction_pct_max": 14.242239805234329,
+  "note": "Both pair-specific designs are independently calibrated; pooled uncertainty should remain pair-stratified."
+}

@@ -1,0 +1,11 @@
+{
+  "roots": 2,
+  "paired_query_repetitions_total": 4800,
+  "signal_equivalent_pairs_total": 4800,
+  "resolver_full_slice_matches_total": 9600,
+  "resolver_full_slice_total": 9600,
+  "max_signal_abs_diff_across_roots": 2.262368070660159e-11,
+  "root1_passed": true,
+  "root2_passed": true,
+  "passed": true
+}

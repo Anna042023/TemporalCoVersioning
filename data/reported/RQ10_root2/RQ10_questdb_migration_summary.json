@@ -1,0 +1,9 @@
+{
+  "migration_reps": 15,
+  "migration_client_ms_median": 32.6229,
+  "migration_client_ms_p25": 30.6142325,
+  "migration_client_ms_p75": 37.603788,
+  "migration_client_ms_min": 29.758458,
+  "migration_client_ms_max": 44.612397,
+  "wal_wait_ms_median": 24.080422
+}

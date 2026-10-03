@@ -1,0 +1,10 @@
+{
+  "roots": 2,
+  "migration_repetitions_total": 30,
+  "migration_client_ms_median": 33.0874755,
+  "migration_client_ms_q25": 31.010652,
+  "migration_client_ms_q75": 36.978024749999996,
+  "wal_wait_ms_median": 24.338186999999998,
+  "wal_wait_ms_q25": 23.19733725,
+  "wal_wait_ms_q75": 27.7961755
+}

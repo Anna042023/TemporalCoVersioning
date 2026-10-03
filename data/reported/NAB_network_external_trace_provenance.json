@@ -1,0 +1,42 @@
+{
+  "dataset": "Numenta Anomaly Benchmark (NAB), realAWSCloudwatch/ec2_network_in_5abac7.csv",
+  "upstream_url": "https://github.com/numenta/NAB/blob/master/data/realAWSCloudwatch/ec2_network_in_5abac7.csv",
+  "upstream_raw_url": "https://raw.githubusercontent.com/numenta/NAB/master/data/realAWSCloudwatch/ec2_network_in_5abac7.csv",
+  "description": "AWS EC2 NetworkIn metric collected through Amazon CloudWatch.",
+  "selection_rule": "For each official NAB anomaly label, take the 4-hour label-centered episode [label-2h,label+2h]. Its normal control is the identical clock-time episode exactly 24 hours earlier. Window selection uses labels/timestamps only, before feature values or layout results are examined.",
+  "windows": [
+    {
+      "segment": "normal1",
+      "start": "2014-03-09 16:56:00",
+      "end": "2014-03-09 20:56:00",
+      "source_lines": "2297-2345",
+      "paired_label": "2014-03-10 18:56:00",
+      "offset_from_anomaly": "-24h"
+    },
+    {
+      "segment": "anomaly1",
+      "start": "2014-03-10 16:56:00",
+      "end": "2014-03-10 20:56:00",
+      "source_lines": "2585-2633",
+      "label": "2014-03-10 18:56:00"
+    },
+    {
+      "segment": "normal2",
+      "start": "2014-03-11 19:01:00",
+      "end": "2014-03-11 23:01:00",
+      "source_lines": "2898-2946",
+      "paired_label": "2014-03-12 21:01:00",
+      "offset_from_anomaly": "-24h"
+    },
+    {
+      "segment": "anomaly2",
+      "start": "2014-03-12 19:01:00",
+      "end": "2014-03-12 23:01:00",
+      "source_lines": "3186-3234",
+      "label": "2014-03-12 21:01:00"
+    }
+  ],
+  "local_sha256": "2b301e188197360f539d7df87dbd3faf04349762051efd64175389cc1b20fab0",
+  "license_notice": "Upstream NAB is MIT-licensed; see https://github.com/numenta/NAB/blob/master/LICENSE.txt",
+  "scope_note": "Independent external production-monitoring signal metric; not a production SQL/query log."
+}

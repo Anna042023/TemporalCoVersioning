@@ -1,0 +1,15 @@
+{
+  "engine": "DuckDB 1.5.5 CLI",
+  "source_id": "d8cdaa33fd",
+  "threads": 1,
+  "payload_bytes": 1024,
+  "queries": 120,
+  "independent_fresh_databases": 3,
+  "timed_repetitions_per_database": 4,
+  "timings_per_query_layout": 12,
+  "semantic_pairs": 120,
+  "semantic_mismatches_gt_1e-9": 0,
+  "max_signal_abs_diff": 0.0,
+  "slice_layout_query_mismatches": 0,
+  "position_balance": "For each fresh DB and query, each layout appears first exactly two of four timed repetitions."
+}

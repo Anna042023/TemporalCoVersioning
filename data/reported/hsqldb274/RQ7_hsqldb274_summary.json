@@ -1,0 +1,78 @@
+{
+  "engine": "HSQLDB 2.7.4",
+  "protocol": "Frozen RQ7 64-state / 120-window / 3-base / 4 position-balanced repetitions",
+  "raw_rows": 8640,
+  "position_balance_pass": true,
+  "semantic_pairs": 360,
+  "semantic_mismatches_gt_1e-9": 0,
+  "max_signal_abs_diff": 0.0,
+  "payloads": [
+    {
+      "payload_bytes": 256,
+      "queries": 120,
+      "independent_fresh_databases": 3,
+      "timed_repetitions_per_database": 4,
+      "timings_per_query_layout": 12,
+      "static_slices_mean": 264.48333333333335,
+      "temporal_slices_mean": 27.975,
+      "slice_reduction_pct": 89.42277396181234,
+      "resolver_gain_pct_median": 5.782794619045977,
+      "resolver_gain_ci_95": [
+        3.798434840228642,
+        7.050655224175911
+      ],
+      "full_gain_pct_median": 1.1602778135840575,
+      "full_gain_ci_95": [
+        0.48912296695532165,
+        2.179548698044857
+      ],
+      "positive_query_fraction": 0.65,
+      "semantic_max_abs_diff": 0.0
+    },
+    {
+      "payload_bytes": 1024,
+      "queries": 120,
+      "independent_fresh_databases": 3,
+      "timed_repetitions_per_database": 4,
+      "timings_per_query_layout": 12,
+      "static_slices_mean": 264.46666666666664,
+      "temporal_slices_mean": 27.966666666666665,
+      "slice_reduction_pct": 89.4252583816486,
+      "resolver_gain_pct_median": 12.225888052720649,
+      "resolver_gain_ci_95": [
+        10.51321685564875,
+        13.388774842459657
+      ],
+      "full_gain_pct_median": 1.755149166652286,
+      "full_gain_ci_95": [
+        0.9647754185399902,
+        2.0324061201915185
+      ],
+      "positive_query_fraction": 0.6583333333333333,
+      "semantic_max_abs_diff": 0.0
+    },
+    {
+      "payload_bytes": 4096,
+      "queries": 120,
+      "independent_fresh_databases": 3,
+      "timed_repetitions_per_database": 4,
+      "timings_per_query_layout": 12,
+      "static_slices_mean": 264.5083333333333,
+      "temporal_slices_mean": 27.966666666666665,
+      "slice_reduction_pct": 89.42692416748055,
+      "resolver_gain_pct_median": 14.143346905122732,
+      "resolver_gain_ci_95": [
+        13.563459688586038,
+        15.407967481411422
+      ],
+      "full_gain_pct_median": 3.3489294752045473,
+      "full_gain_ci_95": [
+        2.506806783776571,
+        3.832780992086035
+      ],
+      "positive_query_fraction": 0.8416666666666667,
+      "semantic_max_abs_diff": 0.0
+    }
+  ],
+  "gate_pass": true
+}

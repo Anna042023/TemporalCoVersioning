@@ -1,0 +1,34 @@
+{
+  "questdb_build_response": {
+    "query": "SELECT build() build",
+    "columns": [
+      {
+        "name": "build",
+        "type": "STRING"
+      }
+    ],
+    "timestamp": -1,
+    "dataset": [
+      [
+        "Build Information: QuestDB 10.0.1, JDK 25.0.2, Commit Hash 7a391566ac827e0d8c269b91f2415c16b0a32a84"
+      ]
+    ],
+    "count": 1,
+    "timings": {
+      "authentication": 9365,
+      "compiler": 4730983,
+      "execute": 6323571,
+      "count": 0
+    }
+  },
+  "host": "http://127.0.0.1:9000",
+  "trace_file": "RQ9_monitoring_trace_events.csv",
+  "trace_sha256": "6b5a77e20a98e9008eb4e1e3073afa6207fd95cfe2b3bd4c18d3eafd746f9655",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "processor": "",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "cpu_count": 5,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "timing_note": "QuestDB REST timings are converted from nanoseconds to milliseconds; client_ms is local wall clock."
+}

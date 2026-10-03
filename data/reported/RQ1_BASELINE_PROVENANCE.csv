@@ -1,0 +1,6 @@
+index,design,role,mean_fragments,frozen_rq1_outcome,normalized_hrc_vs_statichyper,provenance
+0,Global,coarse endpoint,1.0,same partition as StaticHyper (50/50 seeds),,StaticHyper has one fragment in all 50 frozen RQ1 seeds
+1,Atomic,fine endpoint,14.0,fixed endpoint,,deterministic 14-fragment endpoint by definition; no post-hoc HRC reconstructed
+2,PairwiseAffinity,pairwise static baseline,1.0,same HRC as StaticHyper (50/50 seeds),1.0,affinity_cost_ms equals statichyper_cost_ms exactly for all 50 frozen seeds
+3,StaticHyper,strongest static ablation,1.0,reference,1.0,frozen RQ1 reference
+4,TemporalCoVersioning,timestamp-aware proposed method,2.4,1.192758% lower HRC,0.9880724166843718,mean per-seed temporal_cost_ms/statichyper_cost_ms over 50 frozen seeds

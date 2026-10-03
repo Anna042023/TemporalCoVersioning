@@ -1,0 +1,12 @@
+{
+  "pairs": 2,
+  "queries": 160,
+  "static_hes": 2205,
+  "temporal_hes": 2213,
+  "reduction_pct": -0.36281179138321995,
+  "ci_lo": -10.381276680282394,
+  "ci_hi": 8.058833510458644,
+  "bootstrap": "pair-stratified query bootstrap",
+  "replicates": 20000,
+  "seed": 20260924
+}

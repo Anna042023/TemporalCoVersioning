@@ -1,0 +1,22 @@
+{
+  "query": "SELECT build() build",
+  "columns": [
+    {
+      "name": "build",
+      "type": "STRING"
+    }
+  ],
+  "timestamp": -1,
+  "dataset": [
+    [
+      "Build Information: QuestDB 10.0.1, JDK 25.0.2, Commit Hash 7a391566ac827e0d8c269b91f2415c16b0a32a84"
+    ]
+  ],
+  "count": 1,
+  "timings": {
+    "authentication": 9764,
+    "compiler": 4933993,
+    "execute": 6541264,
+    "count": 0
+  }
+}
